@@ -1,0 +1,152 @@
+body {
+    font-family: "Open Sans", "sans-serif";
+    margin: 0;
+    min-height: 100vh;
+}
+
+.topsection, .middlesection, .quotesection, .footer {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.topsection, .footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    height: 68px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+ul {
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    display: inline-flex;
+    gap: 24px;
+    margin-left: 24px;
+}
+
+.splash {
+    margin-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.splashleft {
+    padding-right: 30px;
+    width: 460px;
+}
+
+.splashright {
+    justify-content: right;
+}
+
+.heromaintext {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.herosecondarytext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #3882f6;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    border: none;
+}
+
+.middlesection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.middleheader {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.middleboxcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.boxandtext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 164px;
+}
+
+.middlebox {
+    height: 150px; width: 160px;
+    border: 4px #3882f6;
+    border-style: solid;
+    border-radius: 12px;
+}
+
+.subtext {
+    padding-top: 8px;
+    color: #4d5669;
+    font-size: 18px;
+}
+
+.quotesection {
+    background-color: #e5e7eb;
+}
+
+.quotetext {
+    font-size: 36px;
+    color: #4d5669;
+    padding-top: 140px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.thortext {
+    padding-bottom: 100px;
+    padding-right: 120px;
+    color: #1F2937;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: right;     
+}
